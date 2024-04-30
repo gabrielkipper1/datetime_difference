@@ -1,6 +1,7 @@
-# flutter_date_difference
 
-Published Package on pub.dev
+# datetime_difference
+This is a fork from [flutter_date_difference](https://pub.dev/packages/flutter_date_difference) that includes web support.
+Feel free to contribute and translate it.
 
 #### Usage
 
