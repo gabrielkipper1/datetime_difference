@@ -1,6 +1,6 @@
 library flutter_date_difference;
 
-import 'locale_providers/mobile_locale.dart' if (dart.library.html) 'web_locale.dart' as locale;
+import 'locale_providers/mobile_locale.dart' if (dart.library.html) 'locale_providers/web_locale.dart' as locale;
 import 'flutter_date_difference_helper.dart';
 
 ///[FlutterDateDifference] IS a Main Class
