@@ -1,5 +1,5 @@
+import 'package:datetime_difference/flutter_date_difference.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_date_difference/flutter_date_difference.dart';
 
 void main() {
   runApp(const MyApp());
