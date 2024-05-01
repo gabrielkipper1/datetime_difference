@@ -1,6 +1,6 @@
 name: datetime_difference
-description: Calculates the difference between two dates.
-version: 1.0.3
+description: Calculates the difference between two dates. It returns a string with the difference in years, months, days, hours, minutes and seconds.
+version: 1.0.4
 homepage: https://github.com/gabrielkipper1/
 repository: https://github.com/gabrielkipper1/datetime_difference
 issue_tracker: https://github.com/gabrielkipper1/datetime_difference/issues
@@ -19,4 +19,10 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.2
 
-flutter:
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:

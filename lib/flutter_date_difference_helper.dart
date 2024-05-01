@@ -233,7 +233,20 @@ class FlutterDateDifferenceHelper {
   ///takes year and month
   ///and return [int] value dayCountInMonth
   static int getDayCountInMonth(int year, int month) {
-    return [31, year % 4 == 0 ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month - 1];
+    return [
+      31,
+      year % 4 == 0 ? 29 : 28,
+      31,
+      30,
+      31,
+      30,
+      31,
+      31,
+      30,
+      31,
+      30,
+      31
+    ][month - 1];
   }
 
   ///Set language
@@ -295,7 +308,8 @@ class FlutterDateDifferenceHelper {
   ///[String] method [countsToString]
   ///takes yearCount,monthCount and dayCount
   ///and return [int] value differenceText
-  static String countsToString(int yearCount, int monthCount, int dayCount, int hourCount, int minuteCount) {
+  static String countsToString(int yearCount, int monthCount, int dayCount,
+      int hourCount, int minuteCount) {
     if (yearCount == 0 && monthCount == 0 && dayCount == 0) {
       if (hourCount == 0 && minuteCount == 0) {
         return _now ?? _local[_language]!["Now"]!;

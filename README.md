@@ -1,7 +1,11 @@
 
 # datetime_difference
 This is a fork from [flutter_date_difference](https://pub.dev/packages/flutter_date_difference) that includes web support.
-Feel free to contribute and translate it.
+
+The plugin will get the system current language and try to find a tranlation for that, if it does not find anything, it will use the default language(english).
+You can also override the language auto detection using the "setLanguage" method.
+
+Feel free to contribute or translate it to your language.
 
 #### Usage
 
